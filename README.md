@@ -7,7 +7,7 @@
 ## 使い方
 
 ```bash
-node mac-udic-conv.js [入力ファイル] [出力ファイル]
+npx mac-udic-conv [入力ファイル] [出力ファイル]
 ```
 
 ### パラメータ
