@@ -71,12 +71,12 @@ try {
 <array>\n`;
 
     for (const entry of entries) {
-        plistContent += `    <dict>\n`;
-        plistContent += `        <key>phrase</key>\n`;
-        plistContent += `        <string>${escapeXml(entry.phrase)}</string>\n`;
-        plistContent += `        <key>shortcut</key>\n`;
-        plistContent += `        <string>${escapeXml(entry.shortcut)}</string>\n`;
-        plistContent += `    </dict>\n`;
+        plistContent += `	<dict>\n`;
+        plistContent += `		<key>phrase</key>\n`;
+        plistContent += `		<string>${escapeXml(entry.phrase)}</string>\n`;
+        plistContent += `		<key>shortcut</key>\n`;
+        plistContent += `		<string>${escapeXml(entry.shortcut)}</string>\n`;
+        plistContent += `	</dict>\n`;
     }
 
     plistContent += `</array>\n`;
