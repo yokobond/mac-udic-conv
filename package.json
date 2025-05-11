@@ -1,6 +1,6 @@
 {
   "name": "mac-udic-conv",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert custom dictionary files to macOS plist format",
   "main": "mac-udic-conv.js",
   "bin": {
